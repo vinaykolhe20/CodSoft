@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+
+*{
+    font-family: 'Poppins',sant-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    transition: .2s linear;
+    text-decoration: none;
+}
+.container{
+    background-color: white;
+    height: 1980px;
+    width: 100%;
+}
+.container .all-content
+{
+   
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container .all-content .header{
+   
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .all-content .header h1{
+    font-size: 2.44rem;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.container .all-content .header #menu{
+    
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+   gap: 50px;
+}
+.container .all-content .header #menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.container .all-content .about{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.container .all-content .about .breif-info{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 40px;
+    margin-top: 60px;
+    gap: 5px;
+}
+.container .all-content .about img{
+    background-color: rgb(164, 196, 196);
+    height: 500px;
+    margin-right: 50px;
+    padding-left: 20px;
+   
+    padding-top: 5px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 3px 2px rgb(119, 151, 109);
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 100px;
+    
+}
+.container .all-content .about img:hover{
+    scale: 1.011;
+    transform: translatex(-1px);
+}
+.container .all-content .skills-section{
+    margin-top: 60px;
+    
+}
+.container .all-content .skills-section h1{
+   font-size: 2.7rem;
+   text-align: center;
+   font-family: Poppins;
+   color: #201414;
+   text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+   padding-bottom: 50px;
+}
+.container .all-content .skills-section .allboxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 25px;
+   
+}
+.container .all-content .skills-section .skill-box{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    
+}
+.container .all-content .skills-section .skill-box:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.02);
+}
+.container .all-content .skills-section .skill-box img{
+    height: 140px;
+    width: 80%;
+    
+    
+    padding-left: 30px;
+    background-color: white;
+    padding-right: 43px;
+
+}
+.container .all-content .skills-section .skill-box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .all-content .skills-section .skill-box .btn:hover{
+    letter-spacing: 1px;
+}
+@media(max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+.container .all-content .about .resume-btn{
+        margin-top: 10px;
+        display: inline-block;
+        width: 70px;
+        background-color: #333;
+        color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+        padding: 8px 25px;
+                        
+}
+.container .all-content .about .resume-btn:hover{
+    letter-spacing: 1px;
+}
+.container .all-content .contact-part{
+    border-top: 4px dotted black;
+    border-color: rgb(224, 222, 218);
+    height: 400px;
+   
+}
+.container .all-content .contact-part h2{
+    padding-left: 30px;
+    font-size: 45px;
+    padding-top: 30px;
+    
+}
+.container .all-content .contact-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .all-content .contact-part .media{
+    display: flex;
+    padding-right: 50px;
+    padding-top: 30px;
+    flex-direction: row;
+    gap: 160px;
+}
+.container .all-content .contact-part .media .social .logos{
+   padding-top: 20px;
+   margin-top: 30px;
+}
+.container .all-content .contact-part .media .social .logos img{
+    height: 45px;
+   
+    padding-right: 20px;
+}
+.container .all-content .contact-part .name form{
+   display: flex;
+   margin-top: 80px;
+   flex-direction: column;
+   padding-left: 30px;
+   gap: 20px;
+   padding-bottom: 45px;
+}
+.container .all-content .contact-part .name form a{
+    margin-top: 10px;
+    display: inline-block;
+    width: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+}
+.container .all-content .contact-part .media .social .logos a:hover{
+    opacity: 0.8;
+    scale: 2;
+}
+.container .all-content .contact-part .media .other .ids{
+    margin-top: 40px;
+    
+}
+.container .project-section{
+    margin-top: 60px;
+}
+.container .all-content .contact-part .name h2{
+    font-size: 2.7rem;
+    
+    font-family: Poppins;
+    color: #201414;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding-bottom: 50px;
+}
+.container .project-section .all-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 30px;
+    
+}
+.container .project-section .all-card .project-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #f3faf8;
+    text-align: center;
+    padding: 30px 20px;
+
+
+}
+.container .project-section .all-card .project-card:hover{
+    box-shadow: 0 10px 15px rgba(40, 132, 121, 0.3);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.container .project-section h1{
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: Poppins;
+    color: #201414;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding-bottom: 50px;
+}
+.container .contact-part h1{
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: Poppins;
+    color: #201414;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding-bottom: 50px;
+}
+
+.container .all-content .about{
+    display: flex;
+    
+}
+.container .all-content .skills-section .allabout p{
+   text-align: justify;
+}
